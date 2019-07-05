@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+}
+
+.menu-buttons {
+    position: fixed;
+    width: auto;
+    height: 10%;
+    padding: 4px;
+    text-align: center;
+    border: solid 1px orangered;
+    bottom: 0;
+}
+.menu-container {
+    padding: 4px;
+    border: solid 1px blue;
+}
+#gear {
+    margin: 4px 0 0 0;
+    width: 10%;
+    height: auto;
+    border: solid 1px green;
+}
