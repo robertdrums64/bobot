@@ -1,0 +1,19 @@
+#right-antball {
+    stroke: red;
+    animation: antannae 1s infinite;
+}
+#left-antball {
+    stroke: red;
+    animation: antannae 1s infinite;
+    animation-delay: 0.5s;
+}
+@keyframes antannae {
+    from {
+        fill: red;
+        stroke: rgba(253, 0, 0, 0.26);
+        stroke-width: 1%;
+        stroke-opacity: 0.5;
+    }
+    to {
+    }
+}

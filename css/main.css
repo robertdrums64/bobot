@@ -2,22 +2,27 @@ body {
     margin: 0;
 }
 
-.menu-buttons {
-    position: fixed;
-    width: auto;
-    height: 10%;
-    padding: 4px;
+/* TOP BAR */
+
+.top-bar {
+    width: 100%;
+    /* border: solid 1px blue; */
+}
+
+/* MAIN BODY CONTAINER */
+
+.body-container {
     text-align: center;
-    border: solid 1px orangered;
-    bottom: 0;
+    padding: 8% 0 2% 0;
+    /* border: solid 1px rgb(255, 0, 0); */
 }
-.menu-container {
-    padding: 4px;
-    border: solid 1px blue;
+#bobot{
+    width: 60vh;
 }
-#gear {
-    margin: 4px 0 0 0;
-    width: 10%;
-    height: auto;
-    border: solid 1px green;
+
+/* MENU BAR SET TO THE BOTTOM */
+
+.menu-buttons {
+    width: 100%;
+    /* border: solid 1px blue; */
 }
