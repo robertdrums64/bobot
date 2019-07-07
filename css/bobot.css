@@ -12,23 +12,21 @@
 }
 
 @-webkit-keyframes antannae {
-    0% {
-        fill: red;
-        stroke: rgba(253, 0, 0, 0.26);
-        stroke-width: 1%;
-        stroke-opacity: 0.5;
-    }
-    100% {
-    }
+        from {fill: red;
+            stroke: rgba(253, 0, 0, 0.26);
+            stroke-width: 1%;
+            stroke-opacity: 0.5;}
+        to {
+            fill: none;
+        }
 }
 
 @keyframes antannae {
-    0% {
-        fill: red;
-        stroke: rgba(253, 0, 0, 0.26);
-        stroke-width: 1%;
-        stroke-opacity: 0.5;
-    }
-    100% {
-    }
+        from {fill: red;
+            stroke: rgba(253, 0, 0, 0.26);
+            stroke-width: 1%;
+            stroke-opacity: 0.5;}
+        to {
+            fill: none;
+        }
 }
