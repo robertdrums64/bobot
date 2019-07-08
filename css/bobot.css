@@ -1,3 +1,4 @@
+/* ANTANNAE */
 #right-antball {
     stroke: red;
     -webkit-animation: antannae 1s infinite;
@@ -13,9 +14,9 @@
 
 @-webkit-keyframes antannae {
         from {fill: red;
-            stroke: rgba(253, 0, 0, 0.26);
+            /* stroke: rgba(253, 0, 0, 0.26);
             stroke-width: 1%;
-            stroke-opacity: 0.5;}
+            stroke-opacity: 0.5;} */
         to {
             fill: none;
         }
@@ -23,9 +24,9 @@
 
 @keyframes antannae {
         from {fill: red;
-            stroke: rgba(253, 0, 0, 0.26);
+            /* stroke: rgba(253, 0, 0, 0.26); b
             stroke-width: 1%;
-            stroke-opacity: 0.5;}
+            stroke-opacity: 0.5;} */
         to {
             fill: none;
         }
