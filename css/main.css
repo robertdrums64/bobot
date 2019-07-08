@@ -1,16 +1,11 @@
 body {
     margin: 0;
 }
+.bobot-container {
 
-/* TOP BAR */
-
-.top-bar {
-    width: 100%;
-    /* border: solid 1px blue; */
 }
 
 /* MAIN BODY CONTAINER */
-
 .body-container {
     text-align: center;
     padding: 8% 0 2% 0;
@@ -18,11 +13,19 @@ body {
 }
 #bobot{
     width: 60vh;
+    border: solid 1px aqua;
 }
 
-/* MENU BAR SET TO THE BOTTOM */
+/* DATA FIELDS */
+input[type=text] {
 
-.menu-buttons {
-    width: 100%;
-    /* border: solid 1px blue; */
+}
+.input {
+    border: solid 1px blue;
+}
+.output {
+    border: solid 1px green;
+}
+.output-screen {
+    border: solid 1px red;
 }
