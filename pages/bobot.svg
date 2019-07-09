@@ -2,9 +2,6 @@
 <div class="input">
     <input type="text" name="input" value="INPUT">
 </div>
-<div class="output">
-    <div class="output-screen"></div>
-</div>
 
 <div class="bobot-body">
 <svg class="bobot-svg" id="bobot" data-name="Bobot" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 69.29 93.38">

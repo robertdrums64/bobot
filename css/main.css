@@ -1,31 +1,25 @@
-body {
-    margin: 0;
-}
-.bobot-container {
-
-}
+/* body {
+} */
 
 /* MAIN BODY CONTAINER */
 .body-container {
+    margin: auto;
+    padding: 15%;
+    border: solid 1px rgb(255, 0, 0);
+}
+.bobot-container {
+    border: solid 1px black;
     text-align: center;
-    padding: 8% 0 2% 0;
-    /* border: solid 1px rgb(255, 0, 0); */
 }
 #bobot{
-    width: 60vh;
+    width: 50vh;
     border: solid 1px aqua;
 }
 
 /* DATA FIELDS */
 input[type=text] {
-
+    width: 200px;
 }
 .input {
     border: solid 1px blue;
-}
-.output {
-    border: solid 1px green;
-}
-.output-screen {
-    border: solid 1px red;
 }
