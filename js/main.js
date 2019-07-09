@@ -1,6 +1,10 @@
 $(document).ready(function(){
-    const mainBody = $(".body-container");
+    const mainOne = $(".container-one");
+    const mainTwo = $(".container-one");
+    const mainThree = $(".container-one");
 
-    $(mainBody).load('./pages/bobot.svg');
+    $(mainOne).load('./pages/head.html');
+    $(mainTwo).load('./pages/body.html');
+    $(mainThree).load('./pages/legs.html');
 
 });
