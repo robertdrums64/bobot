@@ -1,3 +1,33 @@
+/* MAIN SVG */
+.cls-1, .cls-5, .cls-6 {
+fill: none;
+}
+
+.cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6 {
+stroke: #231f20;
+stroke-miterlimit: 10;
+}
+
+.cls-1, .cls-2 {
+stroke-width: 0.5px;
+}
+
+.cls-2, .cls-3, .cls-4 {
+fill: #fff;
+}
+
+.cls-3, .cls-6 {
+stroke-width: 0.75px;
+}
+
+.cls-4, .cls-5 {
+stroke-width: 0.25px;
+}
+
+.cls-7 {
+fill: #010101;
+}
+
 /* ANTANNAE */
 #right-antball {
     stroke: red;
@@ -14,7 +44,7 @@
 
 @-webkit-keyframes antannae {
         from {
-            fill: rgba(255, 0, 0, 0.815);
+                fill: rgba(255, 0, 0, 0.815);
                 stroke: rgba(253, 0, 0, 0.26);
                 stroke-width: 1%;
                 stroke-opacity: 0.5;
@@ -32,7 +62,17 @@
         to { fill: none; }
 }
 
+/* DATA FIELDS */
+input {
+        z-index: -1;
+        cursor: crosshair;
+}
 /* CONTROLS */
-/* .gear-one {
-    
-} */
+#gear-one {
+        animation: gear 3s ease 2;
+        /* transform-origin: ; */
+}
+@keyframes gear {
+    /* from {transform:rotate(0deg);}
+    to {transform:rotate(360deg);} */
+}
