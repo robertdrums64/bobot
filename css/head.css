@@ -7,7 +7,6 @@
     width: 75%;
 }
 .head-frame {
-    border: solid 1px green;
     width: auto;
     display: flex;
     flex-direction: column;
