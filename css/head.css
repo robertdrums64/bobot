@@ -1,0 +1,67 @@
+.head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#bobot-head {
+    width: 75%;
+}
+.head-frame {
+    border: solid 1px green;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mouth {
+    position: fixed;
+    top: 175px;
+    border: solid 3px rgb(49, 49, 49);
+}
+input {
+    width: auto;
+}
+
+/* FUNCTIONS */
+#right-bulb {
+    stroke: rgba(255, 0, 0, 0.212);
+    animation: bulbs 1s infinite;
+}
+#left-bulb {
+    stroke: rgba(255, 0, 0, 0.212);
+    animation: bulbs 1s infinite;
+    animation-delay: 0.5s;
+}
+@keyframes bulbs {
+    from {fill: rgba(255, 0, 0, 0.747);
+          stroke-width: 1px;}
+    to {}
+}
+.gear-cont {
+    position: fixed;
+    top: 142px;
+}
+#gear-nose {
+    width: 25px;
+    height: 25px;
+    animation: gear 4s infinite;
+}
+@keyframes gear {
+    from {transform:rotate(0deg);}
+    to {transform:rotate(1240deg);}
+}
+#head-ant {
+    animation: headant 3s ease infinite;
+    stroke: rgba(255, 217, 0, 0.486);
+}
+@keyframes headant {
+    from {stroke: rgba(255, 217, 0, 0.37);
+          stroke-width: 3px;}
+    to {}
+}
+#right-eye {
+    
+}
+#left-eye {
+    fill: yellow;
+}
