@@ -2,13 +2,8 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    flex-direction: column;
+    align-items: center;
 }
 #bobot-head {
     width: 75%;
@@ -29,7 +24,6 @@
 .mouth {
     position: fixed;
     top: 175px;
-    border: solid 3px rgb(49, 49, 49);
 }
 input {
     width: auto;
@@ -37,25 +31,13 @@ input {
 
 /* FUNCTIONS */
 #right-bulb {
-    stroke: rgba(255, 0, 0, 0.212);
-    -webkit-animation: bulbs 1s infinite;
-            animation: bulbs 1s infinite;
+    filter: url(#bulb);
 }
 #left-bulb {
-    stroke: rgba(255, 0, 0, 0.212);
-    -webkit-animation: bulbs 1s infinite;
-            animation: bulbs 1s infinite;
-    -webkit-animation-delay: 0.5s;
-            animation-delay: 0.5s;
-}
-@-webkit-keyframes bulbs {
-    from {fill: rgba(255, 0, 0, 0.747);
-          stroke-width: 1px;}
-    to {}
+    filter: url(#bulb);
 }
 @keyframes bulbs {
-    from {fill: rgba(255, 0, 0, 0.747);
-          stroke-width: 1px;}
+    from {}
     to {}
 }
 .gear-cont {
@@ -65,12 +47,9 @@ input {
 #gear-nose {
     width: 25px;
     height: 25px;
+    transform-origin: 50% 50%;
     -webkit-animation: gear 4s infinite;
             animation: gear 4s infinite;
-}
-@-webkit-keyframes gear {
-    from {-webkit-transform:rotate(0deg);transform:rotate(0deg);}
-    to {-webkit-transform:rotate(1240deg);transform:rotate(1240deg);}
 }
 @keyframes gear {
     from {-webkit-transform:rotate(0deg);transform:rotate(0deg);}
@@ -81,19 +60,20 @@ input {
             animation: headant 3s ease infinite;
     stroke: rgba(255, 217, 0, 0.486);
 }
-@-webkit-keyframes headant {
-    from {stroke: rgba(255, 217, 0, 0.37);
-          stroke-width: 3px;}
-    to {}
-}
 @keyframes headant {
     from {stroke: rgba(255, 217, 0, 0.37);
           stroke-width: 3px;}
     to {}
 }
 #right-eye {
-    
+    animation: gradient 3s ease-in forwards;
 }
 #left-eye {
-    fill: yellow;
+    animation: gradient 3s ease-in forwards;
+}
+@keyframes gradient {
+    from {fill: url(#gradient);
+        fill-opacity: 0.1;}
+    to {fill: url(#gradient);
+        fill-opacity: 0.9;}
 }
