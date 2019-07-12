@@ -1,16 +1,30 @@
 .head {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 #bobot-head {
     width: 75%;
 }
 .head-frame {
     width: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 .mouth {
     position: fixed;
@@ -24,12 +38,20 @@ input {
 /* FUNCTIONS */
 #right-bulb {
     stroke: rgba(255, 0, 0, 0.212);
-    animation: bulbs 1s infinite;
+    -webkit-animation: bulbs 1s infinite;
+            animation: bulbs 1s infinite;
 }
 #left-bulb {
     stroke: rgba(255, 0, 0, 0.212);
-    animation: bulbs 1s infinite;
-    animation-delay: 0.5s;
+    -webkit-animation: bulbs 1s infinite;
+            animation: bulbs 1s infinite;
+    -webkit-animation-delay: 0.5s;
+            animation-delay: 0.5s;
+}
+@-webkit-keyframes bulbs {
+    from {fill: rgba(255, 0, 0, 0.747);
+          stroke-width: 1px;}
+    to {}
 }
 @keyframes bulbs {
     from {fill: rgba(255, 0, 0, 0.747);
@@ -43,15 +65,26 @@ input {
 #gear-nose {
     width: 25px;
     height: 25px;
-    animation: gear 4s infinite;
+    -webkit-animation: gear 4s infinite;
+            animation: gear 4s infinite;
+}
+@-webkit-keyframes gear {
+    from {-webkit-transform:rotate(0deg);transform:rotate(0deg);}
+    to {-webkit-transform:rotate(1240deg);transform:rotate(1240deg);}
 }
 @keyframes gear {
-    from {transform:rotate(0deg);}
-    to {transform:rotate(1240deg);}
+    from {-webkit-transform:rotate(0deg);transform:rotate(0deg);}
+    to {-webkit-transform:rotate(1240deg);transform:rotate(1240deg);}
 }
 #head-ant {
-    animation: headant 3s ease infinite;
+    -webkit-animation: headant 3s ease infinite;
+            animation: headant 3s ease infinite;
     stroke: rgba(255, 217, 0, 0.486);
+}
+@-webkit-keyframes headant {
+    from {stroke: rgba(255, 217, 0, 0.37);
+          stroke-width: 3px;}
+    to {}
 }
 @keyframes headant {
     from {stroke: rgba(255, 217, 0, 0.37);
