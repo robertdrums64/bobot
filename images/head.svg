@@ -1,36 +1,66 @@
 <svg id="head" data-name="head" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 86.72 77.18">
+  <style>
+    .headcls-1, .headcls-2, .headcls-3 {
+      fill: none;
+    }
+
+    .headcls-1, .headcls-2, .headcls-3, .headcls-4, .headcls-5 {
+      stroke: #231f20;
+      stroke-miterlimit: 10;
+    }
+
+    .headcls-1, .headcls-3, .headcls-4 {
+      stroke-width: 0.5px;
+    }
+
+    .headcls-2 {
+      stroke-width: 0.25px;
+    }
+
+    .headcls-3 {
+      opacity: 0.99;
+    }
+
+    .headcls-4, .headcls-5 {
+      fill: #fff;
+    }
+
+    .headcls-5 {
+      stroke-width: 3px;
+    }
+  </style>
   <title>head</title>
-  <polygon id="right-bar" class="cls-1" points="57.94 19.27 54.12 19.39 54.12 17.41 53.46 16.47 53.59 14.89 54.12 14.09 54.12 12.93 54.34 11.91 54.98 11.7 56.23 11.7 57 11.89 57.21 12.8 57.94 19.27"/>
-  <polygon id="left-bar" class="cls-1" points="31.56 19.89 27.75 19.89 28.46 13.22 28.63 12.51 29.17 12.3 30.65 12.3 31.36 12.49 31.56 13.32 31.56 14.76 32.17 15.39 32.17 16.86 31.56 17.49 31.56 19.89"/>
-  <rect id="left-ear2" class="cls-2" x="17.97" y="44.97" width="1.87" height="3.23" rx="0.25" ry="0.25" transform="translate(-2.25 -7.04) rotate(7.78)"/>
-  <rect id="right-ear2" class="cls-2" x="84.44" y="45.06" width="1.97" height="3.23" rx="0.25" ry="0.25" transform="translate(-15.66 11.01) rotate(-10.23)"/>
-  <polygon id="left-ear" class="cls-3" points="14.4 48.34 10.43 46.66 11.66 37.79 15.93 37.3 14.4 48.34"/>
-  <polygon id="right-ear" class="cls-1" points="76.65 46.81 72.71 48.4 70.64 37.45 74.88 37.45 76.65 46.81"/>
-  <path id="head" class="cls-4" d="M81.49,81.83H23.84a2,2,0,0,1-2-2V64.29a1.94,1.94,0,0,1,0-.24l4.44-37.31a2,2,0,0,1,2-1.77l45.59-.78a2,2,0,0,1,2,1.6l7.62,36a2,2,0,0,1,0,.42V79.83A2,2,0,0,1,81.49,81.83Z" transform="translate(-8.73 -4.91)"/>
-  <circle id="left-eye" class="cls-5" cx="31.56" cy="36.96" r="8.24"/>
-  <circle id="right-eye" class="cls-5" cx="57.21" cy="36.96" r="8.24"/>
-  <polyline id="left-ant" class="cls-2" points="9.27 41.41 0.15 36.96 2.33 28.72 4.71 26.72 3.75 23.38 7.02 21.16 5.2 17.88 7.21 15.16 6.71 12.17 8.52 5.34"/>
-  <polyline id="right-ant" class="cls-2" points="77.7 41.77 86.58 35.59 85.84 30.92 84.65 28.55 85.11 26.34 83.36 23.89 84.24 20.96 82.65 19.29 83.45 16 82.14 7.84"/>
-  <circle id="right-bulb" class="cls-2" cx="81.46" cy="5.34" r="2.61"/>
-  <circle id="left-bulb" class="cls-2" cx="9.27" cy="2.73" r="2.61"/>
-  <polyline id="head-ant" class="cls-2" points="32.17 16.09 35.43 15.91 36.65 17.13 37.99 15.13 39.88 16.71 41.27 14.78 42.68 16.88 44.43 14.78 46.4 16.66 47.94 14.91 49.62 15.91 53.46 15.54"/>
-  <circle id="rivet" class="cls-2" cx="19.48" cy="22.09" r="0.88"/>
-  <circle id="rivet-2" data-name="rivet" class="cls-2" cx="29.96" cy="21.64" r="0.88"/>
-  <circle id="rivet-3" data-name="rivet" class="cls-2" cx="65.27" cy="21.22" r="0.88"/>
-  <circle class="cls-2" cx="43.16" cy="21.4" r="0.88"/>
-  <circle class="cls-2" cx="54.82" cy="21.22" r="0.88"/>
-  <circle class="cls-2" cx="18.16" cy="32.01" r="0.88"/>
-  <circle class="cls-2" cx="16.95" cy="42.61" r="0.88"/>
-  <circle class="cls-2" cx="15.65" cy="52.53" r="0.88"/>
-  <circle class="cls-2" cx="14.77" cy="63.09" r="0.88"/>
-  <circle class="cls-2" cx="15.06" cy="74.89" r="0.88"/>
-  <circle class="cls-2" cx="24.99" cy="74.89" r="0.88"/>
-  <circle class="cls-2" cx="36.73" cy="74.95" r="0.88"/>
-  <circle class="cls-2" cx="49.31" cy="74.89" r="0.88"/>
-  <circle class="cls-2" cx="61.65" cy="74.89" r="0.88"/>
-  <circle class="cls-2" cx="72.61" cy="74.89" r="0.88"/>
-  <circle class="cls-2" cx="73.06" cy="60.72" r="0.88"/>
-  <circle class="cls-2" cx="71.73" cy="50.59" r="0.88"/>
-  <circle class="cls-2" cx="69.13" cy="39.2" r="0.88"/>
-  <circle class="cls-2" cx="67.15" cy="29.36" r="0.88"/>
+  <polygon id="right-bar" class="headcls-1" points="57.94 19.27 54.12 19.39 54.12 17.41 53.46 16.47 53.59 14.89 54.12 14.09 54.12 12.93 54.34 11.91 54.98 11.7 56.23 11.7 57 11.89 57.21 12.8 57.94 19.27"/>
+  <polygon id="left-bar" class="headcls-1" points="31.56 19.89 27.75 19.89 28.46 13.22 28.63 12.51 29.17 12.3 30.65 12.3 31.36 12.49 31.56 13.32 31.56 14.76 32.17 15.39 32.17 16.86 31.56 17.49 31.56 19.89"/>
+  <rect id="left-ear2" class="headcls-2" x="17.97" y="44.97" width="1.87" height="3.23" rx="0.25" ry="0.25" transform="translate(-2.25 -7.04) rotate(7.78)"/>
+  <rect id="right-ear2" class="headcls-2" x="84.44" y="45.06" width="1.97" height="3.23" rx="0.25" ry="0.25" transform="translate(-15.66 11.01) rotate(-10.23)"/>
+  <polygon id="left-ear" class="headcls-3" points="14.4 48.34 10.43 46.66 11.66 37.79 15.93 37.3 14.4 48.34"/>
+  <polygon id="right-ear" class="headcls-1" points="76.65 46.81 72.71 48.4 70.64 37.45 74.88 37.45 76.65 46.81"/>
+  <path id="head" class="headcls-4" d="M81.49,81.83H23.84a2,2,0,0,1-2-2V64.29a1.94,1.94,0,0,1,0-.24l4.44-37.31a2,2,0,0,1,2-1.77l45.59-.78a2,2,0,0,1,2,1.6l7.62,36a2,2,0,0,1,0,.42V79.83A2,2,0,0,1,81.49,81.83Z" transform="translate(-8.73 -4.91)"/>
+  <circle id="left-eye" class="headcls-5" cx="31.56" cy="36.96" r="8.24"/>
+  <circle id="right-eye" class="headcls-5" cx="57.21" cy="36.96" r="8.24"/>
+  <polyline id="left-ant" class="headcls-2" points="9.27 41.41 0.15 36.96 2.33 28.72 4.71 26.72 3.75 23.38 7.02 21.16 5.2 17.88 7.21 15.16 6.71 12.17 8.52 5.34"/>
+  <polyline id="right-ant" class="headcls-2" points="77.7 41.77 86.58 35.59 85.84 30.92 84.65 28.55 85.11 26.34 83.36 23.89 84.24 20.96 82.65 19.29 83.45 16 82.14 7.84"/>
+  <circle id="right-bulb" class="headcls-2" cx="81.46" cy="5.34" r="2.61"/>
+  <circle id="left-bulb" class="headcls-2" cx="9.27" cy="2.73" r="2.61"/>
+  <polyline id="head-ant" class="headcls-2" points="32.17 16.09 35.43 15.91 36.65 17.13 37.99 15.13 39.88 16.71 41.27 14.78 42.68 16.88 44.43 14.78 46.4 16.66 47.94 14.91 49.62 15.91 53.46 15.54"/>
+  <circle id="rivet" class="headcls-2" cx="19.48" cy="22.09" r="0.88"/>
+  <circle id="rivet-2" data-name="rivet" class="headcls-2" cx="29.96" cy="21.64" r="0.88"/>
+  <circle id="rivet-3" data-name="rivet" class="headcls-2" cx="65.27" cy="21.22" r="0.88"/>
+  <circle class="headcls-2" cx="43.16" cy="21.4" r="0.88"/>
+  <circle class="headcls-2" cx="54.82" cy="21.22" r="0.88"/>
+  <circle class="headcls-2" cx="18.16" cy="32.01" r="0.88"/>
+  <circle class="headcls-2" cx="16.95" cy="42.61" r="0.88"/>
+  <circle class="headcls-2" cx="15.65" cy="52.53" r="0.88"/>
+  <circle class="headcls-2" cx="14.77" cy="63.09" r="0.88"/>
+  <circle class="headcls-2" cx="15.06" cy="74.89" r="0.88"/>
+  <circle class="headcls-2" cx="24.99" cy="74.89" r="0.88"/>
+  <circle class="headcls-2" cx="36.73" cy="74.95" r="0.88"/>
+  <circle class="headcls-2" cx="49.31" cy="74.89" r="0.88"/>
+  <circle class="headcls-2" cx="61.65" cy="74.89" r="0.88"/>
+  <circle class="headcls-2" cx="72.61" cy="74.89" r="0.88"/>
+  <circle class="headcls-2" cx="73.06" cy="60.72" r="0.88"/>
+  <circle class="headcls-2" cx="71.73" cy="50.59" r="0.88"/>
+  <circle class="headcls-2" cx="69.13" cy="39.2" r="0.88"/>
+  <circle class="headcls-2" cx="67.15" cy="29.36" r="0.88"/>
 </svg>
