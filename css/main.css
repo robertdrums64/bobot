@@ -8,8 +8,8 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 1%;
 }
+
 .container-one {
     /* border: solid 1px red; */
     width: 25%;
