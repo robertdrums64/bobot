@@ -4,10 +4,12 @@
 
 /* EYES */
 #left-eye {
-    animation: eyes 2s ease-in forwards;
+    -webkit-animation: eyes 2s ease-in forwards;
+            animation: eyes 2s ease-in forwards;
 }
 #right-eye {
-    animation: eyes 2s ease-in forwards;
+    -webkit-animation: eyes 2s ease-in forwards;
+            animation: eyes 2s ease-in forwards;
 }
 
 /* MOUTH */
@@ -17,6 +19,13 @@
 }
 input {
     width: 115px;
+}
+@-webkit-keyframes eyes {
+    from {
+        fill: url(#eyesGradient);
+        fill-opacity: 0.05;
+    }
+    to {fill: url(#eyesGradient);}
 }
 @keyframes eyes {
     from {
@@ -28,18 +37,31 @@ input {
 
 /* ANTENNA */
 #right-bulb {
-    animation: antenna 1s ease infinite;
+    -webkit-animation: antenna 1s ease infinite;
+            animation: antenna 1s ease infinite;
 }
 #left-bulb {
-    animation: antenna 1s ease infinite;
-    animation-delay: 0.5s;
+    -webkit-animation: antenna 1s ease infinite;
+            animation: antenna 1s ease infinite;
+    -webkit-animation-delay: 0.5s;
+            animation-delay: 0.5s;
+}
+@-webkit-keyframes antenna {
+    from { fill: url(#antenna) }
+    to {}
 }
 @keyframes antenna {
     from { fill: url(#antenna) }
     to {}
 }
 #head-ant {
-    animation: headant 2s ease infinite;
+    -webkit-animation: headant 2s ease infinite;
+            animation: headant 2s ease infinite;
+}
+@-webkit-keyframes headant {
+    from { stroke: gold; 
+           stroke-width: 2px; }
+    to { stroke: rgba(255, 217, 0, 0.253);  }
 }
 @keyframes headant {
     from { stroke: gold; 
