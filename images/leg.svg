@@ -1,0 +1,59 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12.34 33.73">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        stroke: #231f20;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-1, .cls-2 {
+        stroke-width: 0.5px;
+      }
+
+      .cls-2, .cls-3 {
+        fill: none;
+      }
+
+      .cls-3 {
+        stroke-width: 0.25px;
+      }
+
+      .cls-4 {
+        fill: #231f20;
+      }
+    </style>
+  </defs>
+  <title>leg</title>
+  <g id="leg">
+    <rect class="cls-1" x="2.16" y="4.6" width="8.07" height="8.93"/>
+    <rect class="cls-1" x="2.12" y="15.79" width="8.07" height="8.93"/>
+    <rect class="cls-1" x="1.44" y="14.44" width="9.43" height="1.36" rx="0.68" ry="0.68"/>
+    <rect class="cls-1" x="1.44" y="12.91" width="9.43" height="1.36" rx="0.68" ry="0.68"/>
+    <rect class="cls-1" x="1.44" y="11.45" width="9.43" height="1.36" rx="0.68" ry="0.68"/>
+    <rect class="cls-1" x="1.44" y="3.24" width="9.43" height="1.36" rx="0.68" ry="0.68"/>
+    <rect class="cls-1" x="1.44" y="1.72" width="9.43" height="1.36" rx="0.68" ry="0.68"/>
+    <rect class="cls-1" x="1.44" y="0.25" width="9.43" height="1.36" rx="0.68" ry="0.68"/>
+    <rect class="cls-1" x="1.44" y="24.72" width="9.43" height="1.36" rx="0.68" ry="0.68"/>
+    <rect class="cls-1" x="1.44" y="23.25" width="9.43" height="1.36" rx="0.68" ry="0.68"/>
+  </g>
+  <g id="shoe">
+    <polygon class="cls-1" points="11.54 30.13 0.85 30.13 0.85 27.48 1.73 25.95 10.57 25.95 11.54 27.48 11.54 30.13"/>
+    <line class="cls-2" x1="0.85" y1="27.48" x2="11.54" y2="27.48"/>
+    <line class="cls-3" x1="4.78" y1="33.73" x2="4.78" y2="33.69"/>
+    <line class="cls-3" x1="4.55" y1="27.48" x2="4.55" y2="30.12"/>
+    <line class="cls-3" x1="8.26" y1="27.4" x2="8.26" y2="30.04"/>
+    <line class="cls-3" x1="9.38" y1="27.48" x2="9.38" y2="30.12"/>
+    <line class="cls-3" x1="3.38" y1="27.48" x2="3.38" y2="30.12"/>
+    <line class="cls-3" x1="2.12" y1="27.48" x2="2.12" y2="30.12"/>
+    <line class="cls-3" x1="6.94" y1="27.48" x2="6.94" y2="30.12"/>
+    <line class="cls-3" x1="5.76" y1="27.48" x2="5.76" y2="30.12"/>
+    <line class="cls-3" x1="10.57" y1="27.48" x2="10.57" y2="30.12"/>
+    <path class="cls-2" d="M55.88,69.48H44.08l.13-1.27c0-.1.18-.17.37-.17h10.8c.19,0,.35.07.38.16Z" transform="translate(-43.81 -37.75)"/>
+    <circle class="cls-4" cx="4.26" cy="26.69" r="0.31"/>
+    <circle class="cls-4" cx="8.26" cy="26.74" r="0.31"/>
+  </g>
+</svg>

@@ -1,3 +1,25 @@
 #body {
     width: 100%;
 }
+.screen {
+    position: absolute;
+    top: 215px;
+    border: solid 1px green;
+    margin: auto;
+}
+.screen-output {
+    border: solid 1px red;
+    height: 90px;
+    width: 115px;
+}
+
+/* BUTTONS */
+#buttonOne:active  {
+    fill: gold;
+}
+#buttonTwo:active  {
+    fill: red;
+}
+#buttonThree:active  {
+    fill: green;
+}

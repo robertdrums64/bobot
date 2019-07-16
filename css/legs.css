@@ -1,0 +1,10 @@
+.legs {
+    display: flex;
+    text-align: center;
+}
+#leftleg {
+    width: 50%;
+}
+#rightleg {
+    width: 50%;
+}

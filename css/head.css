@@ -1,12 +1,48 @@
 #head {
     width: 100%;
 }
-.nose {
-    position: fixed;
-    top: 10%;
-    border: solid 1px red;
+
+/* EYES */
+#left-eye {
+    animation: eyes 2s ease-in forwards;
 }
+#right-eye {
+    animation: eyes 2s ease-in forwards;
+}
+
+/* MOUTH */
 .mouth {
-    position: fixed;
-    top: 15%;
+    position: absolute;
+    top: 25%;
+}
+input {
+    width: 115px;
+}
+@keyframes eyes {
+    from {
+        fill: url(#eyesGradient);
+        fill-opacity: 0.05;
+    }
+    to {fill: url(#eyesGradient);}
+}
+
+/* ANTENNA */
+#right-bulb {
+    animation: antenna 1s ease infinite;
+}
+#left-bulb {
+    animation: antenna 1s ease infinite;
+    animation-delay: 0.5s;
+}
+@keyframes antenna {
+    from { fill: url(#antenna) }
+    to {}
+}
+#head-ant {
+    animation: headant 2s ease infinite;
+}
+@keyframes headant {
+    from { stroke: gold; 
+           stroke-width: 2px; }
+    to { stroke: rgba(255, 217, 0, 0.253);  }
 }
